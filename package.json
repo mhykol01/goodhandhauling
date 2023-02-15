@@ -1,0 +1,20 @@
+{
+  "name": "goodhandhauling",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js"
+  },
+  "author": "Michael Donald",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "helmet": "^6.0.1",
+    "nodemailer": "^6.9.1",
+    "nodemon": "^2.0.20",
+    "pm2": "^5.2.2"
+  }
+}

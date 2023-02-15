@@ -1,0 +1,537 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0px;
+    background: white;
+}
+
+/* MAIN */
+#main {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+#main div.err {
+    background-color: #c69d4c;
+    margin-top: 70px;
+    width: 100%;
+    text-align: center;
+}
+#main div.err h1 {
+    padding-top: 10%;
+    color: #54362e;
+}
+#main div.err p {
+    padding-bottom: 25%;
+    margin-bottom: 0px;
+}
+#main div.login {
+    margin-top: 70px;
+    padding-top: 40px;
+    width: 100%;
+    background-color: #c69d4c;
+    padding-bottom: 100px;
+}
+#main div.login div.card {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    height: 600px;
+    color: white;
+    background-color: #54362e;
+    border-radius: 40px;
+    box-shadow: 5px 5px 3px #585858;
+}
+#main div.login div.card h1 {
+    font-size: 50px;
+}
+#main div.login div.card img {
+    width: 200px;
+    height: auto;
+}
+#main div.login div.card div.container {
+    margin-top: 50px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#main div.login div.card div.container input {
+    border: none;
+    width: 100%;
+    background-color: #54362e;
+    padding: 10px;
+    font-size: 16px;
+    color: white;
+    outline: none;
+}
+#main div.login div.card div.container label {
+    font-size: 16px;
+}
+#main div.login div.card button {
+    width: 200px;
+    height: 40px;
+    margin-top: 40px;
+    border: none;
+    outline: none;
+    background-color: #c69d4c;
+    color: #54362e;
+    font-size: 0.7em;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+#line {
+    width: 100%;
+    height: 1px;
+    background-color: #adadad;
+    position: relative;
+    overflow: hidden;
+}
+
+#top_box {
+    position: fixed;
+    padding-top: 20px;
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    z-index: 9999;
+}
+#logo{
+    float: left;
+    margin-left: 80px;
+}
+#logo a {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #54362e;
+}
+#menu {
+    float: right;
+    margin-right: 100px;
+    margin-top: -20px;
+}
+#menu ul {
+    font-family: arial;
+    font-size: 16px;
+    color: #54362e;
+    list-style: none;
+}
+#menu ul li {
+    cursor: pointer;
+    display: inline-block;
+    margin-left: 60px;
+}
+#menu ul li a.menu {
+    text-decoration: none;
+    color: #54362e;
+}
+#menu ul li a.login {
+    text-decoration: none;
+    color:#c69d4c;
+}
+#menu ul li:last-child {
+    background-color: #54362e;
+    padding: 10px 30px;
+    color: #c69d4c;
+    border-radius: 20px;
+}
+#slideshow {
+    width: 100%;
+    height: 900px;
+}
+#canvas img {
+    width: 100%;
+    height: 100%;
+}
+#content {
+    font-family: sans-serif;
+    color: #54362e;
+    position: absolute;
+    /*top: 250px;*/
+    top: 40%;
+    left: 80px;
+    z-index: 9998;
+    text-transform: uppercase;
+}
+#content img {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+#msg1 {
+    font-size: 4em;
+}
+#msg2 {
+    font-size: 4.5em;
+    font-weight: 1.3em;
+}
+#btn {
+    width: 200px;
+    height: 40px;
+    border: none;
+    outline: none;
+    color: #c69d4c;
+    background-color: #54362e;
+    font-size: 0.7em;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-top: 30px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+/* MAIN 2 */
+#main2 {
+    position: relative;
+    text-align: center;
+    background-color: white;
+}
+#main2 div.content {
+    width: calc(100% - 20px);
+    margin: 20px;
+    display: flex;
+    color: #54362e;
+    justify-content: center;
+}
+#main2 div.content img {
+    width: 500px;
+    height: auto;
+}
+#main2 div.content div.about {
+    margin-left: 18px;
+    text-align: left;
+}
+#main2 div.content div.about h1 {
+    font-size: 40px;
+}
+#main2 div.content div.about p {
+    font-size: 20px;
+    width: 700px;
+}
+#main2 button {
+    width: 200px;
+    height: 40px;
+    margin-bottom: 40px;
+    border: none;
+    outline: none;
+    color: #c69d4c;
+    background-color: #54362e;
+    font-size: 0.7em;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+/* MAIN 3 */
+#main3 {
+    position: relative;
+    background-color: #c69d4c;
+    text-align: center;
+}
+#main3 h1.title {
+    font-size: 40px;
+    padding-top: 40px;
+    color: #54362e;
+}
+#main3 button.btn2 {
+    width: 200px;
+    height: 40px;
+    margin-bottom: 40px;
+    border: none;
+    outline: none;
+    color: #c69d4c;
+    background-color: #54362e;
+    font-size: 0.7em;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border-radius: 20px;
+    cursor: pointer;
+}
+#main3 div.flexbox {
+    width: 100%;
+    display: inline-flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+#main3 div.flexbox div.profilecard {
+    width: 300px;
+    height: 450px;
+    margin: 30px;
+    color: white;
+    background-color: #54362e;
+    border-radius: 30px;
+    box-shadow: 5px 5px 3px #585858;
+}
+#main3 div.flexbox div.profilecard img {
+    border-radius: 20px;
+    margin-top: 20px;
+    width: 85%;
+    height: auto;
+}
+#main3 div.flexbox div.profilecard div.description h3 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+#main3 div.flexbox div.profilecard button {
+    width: 120px;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+    background-color: #c69d4c;
+    color: #54362e;
+    border-radius: 20px;
+    text-transform: uppercase;
+    font-size: 0.7em;
+}
+
+/* MAIN 4 */
+#main4 {
+    height: 400px;
+    padding-top: 1px;
+    background-image: url("/img/armon-arani-u1bDbvHrmwQ-unsplash.avif");
+    background-size: 100% auto;
+    background-position: center;
+}
+#main4 div.quote {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+#main4 div.quote div.description {
+    font-size: 18px;
+    width: 500px;
+    margin-right: 40px;
+    margin-left: 200px;
+}
+#main4 div.quote div.description h1 {
+    font-size: 40px;
+    opacity: 1;
+    text-align: center;
+}
+#main4 div.quote div.description p {
+    background-color: rgba(255, 255, 255, 0.45);
+    padding: 10px;
+    border: solid rgb(199, 199, 199) 1px;
+}
+
+/* FORMS */
+#error {
+    color: red;
+    opacity: 0;
+}
+#mobileerror {
+    color: red;
+    opacity: 0;
+}
+#main4 div.quote div.form {
+    padding: 10px;
+    margin-top: 40px;
+    text-align: center;
+    height: 300px;
+    margin-left: 40px;
+    background-color: rgba(255, 255, 255, 0.45);
+    border: solid rgb(199, 199, 199) 1px;
+}
+#main4 div.quote div.form input {
+    font-size: 16px;
+    border-radius: 10px;
+    border: solid darkgray 1px;
+    height: 25px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+#main4 div.quote div.form div.name {
+    margin-top: 50px;
+}
+#main4 div.quote div.form div.name label {
+    font-size: 16px;
+}
+#main4 div.quote div.form div.name input {
+    width: 28%;
+    font-size: 16px;
+}
+#main4 div.quote div.form div.email label {
+    font-size: 16px;
+}
+#main4 div.quote div.form div.email input {
+    width: 80%;
+    font-size: 16px;
+}
+#main4 div.quote div.form div.business label {
+    font-size: 16px;
+}
+#main4 div.quote div.form div.business input {
+    width: 70%;
+    font-size: 16px;
+}
+#main4 div.quote div.form button {
+    width: 200px;
+    height: 40px;
+    border: none;
+    outline: none;
+    background-color: #54362e;
+    color: #c69d4c;
+    font-size: 0.7em;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border-radius: 20px;
+    cursor: pointer;
+}
+#main4 div.mobilequote {
+    display: none;
+}
+
+/* FOOTER */
+#footer {
+    margin-bottom: 0;
+    background-color: black;
+    bottom: 0px;
+    color: white;
+}
+#footer div.flex {
+    display: flex;
+    justify-content: center;
+}
+#footer div.flex ul {
+    list-style: none;
+    text-align: center;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+#footer div.flex ul li h3 {
+    font-size: 25px;
+    color: white;
+}
+#footer div.flex ul li a {
+    color: white;
+    text-decoration: none;
+}
+#footer div.flex ul li a:hover {
+    color: blue;
+}
+
+/* MOBILE */
+@media screen and (max-width: 1137px) {
+    /* MAIN */
+    #top_box {
+        display: none;
+    }
+    #content {
+        font-family: sans-serif;
+        color: #54362e;
+        position: absolute;
+        /*top: 250px;*/
+        top: 10%;
+        left: 40px;
+        z-index: 9998;
+        text-transform: uppercase;
+    }
+
+    /* MAIN 2 */
+    #main2 {
+        margin-top: 10%;
+    }
+    #main2 div.content img {
+        display: none;
+    }
+    #main2 div.content div.about {
+        width: 100%;
+        margin-top: -200px;
+        margin-left: 0px;
+        margin-right: 20px;
+    }
+    #main2 div.content div.about p {
+        width: 100%;
+    }
+
+    /* MAIN 4 */
+    #main4 {
+        height: auto;
+        background-position: 20% 50%;
+        background-size: cover;
+        padding-bottom: 1px;
+    }
+    #main4 div.quote {
+        display: none;
+    }
+    #main4 div.mobilequote {
+        display: block;
+        background-color: #ffffff73;
+        margin: 20px;
+        border: solid #c7c7c7 1px;
+    }
+    #main4 div.mobilequote div.description h1 {
+        margin-left: 10px;
+    }
+    #main4 div.mobilequote div.description p {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    #main4 div.mobilequote div.form {
+        text-align: center;
+    }
+    #main4 div.mobilequote div.form input {
+        width: 90%;
+        font-size: 16px;
+        border-radius: 10px;
+        border: solid darkgray 1px;
+        height: 25px;
+        padding-left: 10px;
+        margin-bottom: 20px;
+    }
+    #main4 div.mobilequote div.form {
+        font-size: 16px;
+    }
+    #main4 div.mobilequote div.form {
+        width: 100%;
+        text-align: center;
+    }
+    #main4 div.mobilequote div.form  button {
+        width: 200px;
+        height: 40px;
+        border: none;
+        outline: none;
+        background-color: #54362e;
+        color: #c69d4c;
+        font-size: 0.7em;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        border-radius: 20px;
+        cursor: pointer;
+        margin-bottom: 20px;
+    }
+}
+
+/* EXTRA */
+@media screen and (max-width: 948px) {
+    #main2 {
+        margin-top: 0px;
+    }
+    #canvas img {
+        width: auto;
+        height: 700px;
+    }
+    #main3 div.flexbox {
+        flex-direction: column;
+    }
+    #main3 div.flexbox div.profilecard {
+        width: 300px;
+        height: 450px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 40px;
+        color: white;
+        background-color: #54362e;
+        border-radius: 30px;
+        box-shadow: 5px 5px 3px #585858;
+    }
+}
